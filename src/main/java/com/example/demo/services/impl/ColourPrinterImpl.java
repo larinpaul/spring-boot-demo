@@ -4,7 +4,9 @@ import com.example.demo.services.BluePrinter;
 import com.example.demo.services.ColourPrinter;
 import com.example.demo.services.GreenPrinter;
 import com.example.demo.services.RedPrinter;
+import org.springframework.stereotype.Component;
 
+@Component // If you wanted to replace English with Spanish, you'd have to remove @Component from the English classes and add the annotations to the Spanish classes
 public class ColourPrinterImpl implements ColourPrinter {
 
     private RedPrinter redPrinter;

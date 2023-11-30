@@ -26,4 +26,8 @@ public class DemoApplication implements CommandLineRunner {
 		log.info(colourPrinter.print());
 	}
 
+
+	// Write a method to return
+
+
 }

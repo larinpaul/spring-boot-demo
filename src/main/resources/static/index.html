@@ -4,10 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        @keyframes rainbow {
+            0% { background-color: tomato; }
+            20% { background-color: orange; }
+            40% { background-color: yellow; }
+            55% { background-color: green; }
+            68% { background-color: blue; }
+            87% { background-color: purple; }
+            100% { background-color: tomato; }
+        }
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            animation: rainbow 5s infinite;
+        }
+    </style>
 </head>
 <body>
     <h1>This is h1!</h1>
     <p>This is p!</p>
     <p>This is index.html</p>
+    <div class="box"></div>
 </body>
 </html>
+
